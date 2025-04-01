@@ -28,6 +28,9 @@ body {
     color: var(--text);
     transition: all 0.3s ease;
     font-family: var(--font-body);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -253,10 +256,22 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+.contact-content .contact-text {
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.contact-content .contact-note {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.9rem;
+}
+
 footer {
     background: var(--surface);
     border-top: 1px solid var(--border);
     padding: 40px 0;
+    margin-top: auto;
 }
 
 /* Update Bootstrap components */
@@ -596,4 +611,10 @@ footer {
     .country-dropdown .btn {
         min-width: unset;
     }
+}
+
+.terms-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
 }
