@@ -611,6 +611,10 @@ footer {
     .country-dropdown .btn {
         min-width: unset;
     }
+
+    .contact-content a {
+        font-size: 1.2rem;
+    }
 }
 
 .terms-section {
