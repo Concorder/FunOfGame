@@ -608,12 +608,11 @@ footer {
     flex-shrink: 0;     /* Add this */
 }
 @media (max-width: 768px) {
-    .country-dropdown .btn {
-        min-width: unset;
-    }
-
     .contact-content a {
         font-size: 1.2rem;
+    }
+    .country-dropdown .btn {
+        min-width: unset;
     }
 }
 
